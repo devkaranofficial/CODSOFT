@@ -1,26 +1,26 @@
-#CODSOFT Python Programming Internship
+# CODSOFT Python Programming Internship
 
 Welcome to my Python Programming Internship repository at CodSoft. This repository contains all projects and tasks completed during my internship journey, showcasing my Python programming skills and problem-solving abilities.
 
-##About Me
+## About Me
 
-Hi, I'm **Dev Karan Singh**, a Computer Science student passionate about Python Programming, Machine Learning, Artificial Intelligence, and Software Development.
+Hi, I'm Dev Karan Singh, a Computer Science student passionate about Python Programming, Machine Learning, Artificial Intelligence, and Software Development.
 
 ## Completed Tasks
 
 ### ✅ Task 1 - To-Do List Application
 
-Features:
+**Features:**
 
 * View Tasks
 * Add New Tasks
-* Update Existing Tasks
+* Update Tasks
 * Delete Tasks
 * Input Validation
 * Exception Handling
 * Menu-Driven Interface
 
-Concepts Learned:
+**Concepts Learned:**
 
 * Lists
 * Loops
@@ -29,11 +29,9 @@ Concepts Learned:
 * Exception Handling
 * User Input Validation
 
----
-
 ### ✅ Task 2 - Calculator
 
-Features:
+**Features:**
 
 * Addition
 * Subtraction
@@ -43,7 +41,7 @@ Features:
 * Division by Zero Handling
 * Exit Option
 
-Concepts Learned:
+**Concepts Learned:**
 
 * while Loops
 * if/elif/else
@@ -52,11 +50,9 @@ Concepts Learned:
 * Error Handling
 * f-Strings
 
----
-
 ### ✅ Task 3 - Password Generator
 
-Features:
+**Features:**
 
 * Random Password Generation
 * User-Defined Password Length
@@ -65,7 +61,7 @@ Features:
 * Multiple Password Generation
 * Error Handling
 
-Concepts Learned:
+**Concepts Learned:**
 
 * random Module
 * string Module
@@ -75,12 +71,29 @@ Concepts Learned:
 * ValueError
 * String Manipulation
 
----
+### ✅ Task 4 - Rock Paper Scissors Game
 
-## ⏳ Remaining Tasks
+**Features:**
 
-* Task 4 - Rock Paper Scissors Game
-* Task 5 - Contact Book
+* Random Computer Choices
+* Win/Loss/Draw Detection
+* Score Tracking
+* Multiple Rounds
+* Input Validation
+* Menu-Driven Interface
+
+**Concepts Learned:**
+
+* random.choice()
+* Counters
+* Conditional Logic
+* Game Development Basics
+* Exception Handling
+* Score Tracking
+
+## ⏳ Remaining Task
+
+### Task 5 - Contact Book
 
 ## Technologies Used
 
@@ -92,18 +105,18 @@ Concepts Learned:
 
 ## Internship Progress
 
-Completed Tasks: **3 / 5**
+Completed Tasks: **4 / 5**
 
 * ✅ Task 1 - To-Do List
 * ✅ Task 2 - Calculator
 * ✅ Task 3 - Password Generator
-* ⏳ Task 4 - Rock Paper Scissors Game
+* ✅ Task 4 - Rock Paper Scissors Game
 * ⏳ Task 5 - Contact Book
 
-##  GitHub Profile
+## GitHub Profile
 
 GitHub: https://github.com/devkaranofficial
 
-##  Author
+## Author
 
-**Dev Karan Singh**
+Dev Karan Singh
