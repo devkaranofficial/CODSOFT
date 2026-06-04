@@ -1,6 +1,6 @@
 to_do_list = []
 while True:
-    print("To Do List:")
+    print("=======================To Do List=======================")
     print("1)View Tasks")
     print("2)Add Task")
     print("3)Update Task")
@@ -11,7 +11,7 @@ while True:
         choice = int(input("Enter Your Choice:"))
 
     except ValueError:
-        print("Enter Values only!(1-5)")
+        print("Enter Values only!(1-5)\n")
         continue
     n = len(to_do_list)
 
@@ -19,19 +19,20 @@ while True:
     #Display To do List
     if choice == 1:
         if n == 0:
-            print("All Tasks Complete")
+            print("All Tasks Complete!\n")
         else:
+            print("\n=======================================")
             print("Tasks To Complete:")
         
             for i in range(n):
              print(f"{i + 1}){to_do_list[i]}")
-
+            print("=======================================\n")
 
     #Add Task
     elif choice == 2:
         new_task = input("Enter Task:")
         to_do_list.append(new_task)
-        print("Task Added Succesfully!")
+        print("Task Added Succesfully!\n")
 
 
     #Update Task
@@ -60,18 +61,18 @@ while True:
 
                 if task_number <= n and task_number > 0 :
                     del to_do_list[task_number - 1]
-                    print("Task Deleted Successfully!")
+                    print("Task Deleted Successfully!\n")
                 else:
-                    print("Enter Valid Input!")
+                    print("Enter Valid Input!\n")
             except ValueError:
-                print(f"Enter Valid Input(1-{n})!")
+                print(f"Enter Valid Input(1-{n})!\n")
 
         else:
-            print("No Tasks Present to Delete!")
+            print("No Tasks Present to Delete!\n")
     #Exit
     elif choice == 5:
-        print('Program Exited Successfully!')
+        print('Program Exited Successfully!\n')
         break
     else:
-        print("Enter Valid input!")
+        print("Enter Valid input!\n")
 
